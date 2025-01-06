@@ -1,0 +1,41 @@
+1. JWT (JSON Web Token)
+A standardized token format that securely transmits information between parties as a JSON object that is digitally signed.
+
+2. JWT Signature
+The signature is a cryptographic hash that verifies the token's authenticity and ensures it hasn't been modified since creation.
+
+3. JWT Payload Visibility
+The payload is visible to anyone who has the token since it's only Base64 encoded, not encrypted, so never store sensitive data in it.
+
+4. JWT Authentication Flow
+Users receive a JWT upon successful login, then include it with subsequent requests to prove their identity and access protected resources.
+
+5. Test Types Comparison
+Unit tests check individual pieces, integration tests verify components work together, and end-to-end tests validate complete user workflows.
+
+6. Mocks
+Mocks are fake versions of dependencies that simulate behavior for testing, commonly used for external services and complex operations.
+
+7. Continuous Integration
+A development practice where code changes are automatically built, tested, and integrated into the shared repository frequently.
+
+8. Environment Variables
+External configuration values that store sensitive or environment-specific information outside of the application code.
+
+9. TDD
+A development approach where tests are written before code, leading to better design but requiring more initial time investment.
+
+10. JSONSchema Value
+A powerful tool for validating data structures and creating clear contracts between services.
+
+11. Deciding What to Test
+Focus testing efforts on business-critical functionality and complex logic that has the highest impact on users.
+
+12. SQL RETURNING
+A clause that retrieves data from modified rows in the same query, improving performance by avoiding additional queries.
+
+13. WebSockets vs HTTP
+WebSockets maintain persistent connections for real-time communication while HTTP uses separate request-response cycles.
+
+14. Flask vs Express Preference
+Express offers a more flexible and JavaScript-native approach to web development with excellent async support and middleware capabilities.
