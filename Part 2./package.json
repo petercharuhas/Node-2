@@ -1,0 +1,12 @@
+{
+  "name": "timeword",
+  "version": "1.0.0",
+  "description": "Convert time string to words",
+  "main": "timeword.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
